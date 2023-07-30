@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+
+<header id="store">
+    <div id = "store-name">
+        <h2>Gamer Pró</h2>
+        <p class= "store-description">
+            Aqui você encontra tudo sobre games !
+        </p>
+        
+    </div>
+
+    <div class = "search-form">
+        <P>Faça uma busca rápida !</P>
+        <form>
+            <div class ="search-forms">
+                <label for="search">O que você procura ?</label>
+                <select name="quick-search">
+                    <option value=""disabled selected>Selecione uma opção</option>
+                    <option value="Console">Consoles</option>
+                    <option value="Games Xbox">Jogos Xbox</option>
+                    <option value="Games Paystation">Jogos de Playstation</option>
+                    <option value="Games Retro">Jogos Retrô</option>
+                    <option value="exchanges">Trocas</option>
+                    <option value="Promotion">Promoções</option>
+
+                </select>
+
+            </div>
+
+            <input type="meet" class="btn" value="Buscar" >
+        </form> 
+
+    </div>  
+
+</header>
+
+
+<section id="carrossel-container">
+    <div class="carrossel-slide">
+        <img src="Imagens/xbox-one Console.jpg" alt="imag-1">
+        <img src="Imagens/Mater Sistem Console.jpg" alt="imag-2">
+        <img src="Imagens/Cartucho Super Nintendo.png" alt="imag-3">
+        <img src="Imagens/Playstation 4 Console.jpg" alt="imag-3">
+
+    </div>
+
+</section>
+
+<section id="key-shop-windows">
+    <h2>Esses são os destaques de nossa loja virtual.</h2>
+    <div class="showcase">
+
+        <div id="case">
+            <div id="case-1" class="case-img"></div>
+            <p>Jogos Retro para seu console.</p>
+
+        </div>
+        <div id="case">
+            <div id="case-2" class="case-img"></div>
+            <p>Consoles de todas gerações.</p>
+
+        </div>
+
+        <div id="case">
+            <div id="case-3" class="case-img"></div>
+            <p>Temos a maior coleção de Arcade e Pinball da região.</p>
+
+        </div>
+        
+    </div>
+</section>
+
+<section id = "begin">
+    <h3>Quer saber mais, entre em nossa loja virtual</h3>
+    <button class = "btn">Loja </button>
+
+
+
+</section>
+
+    <script src="Java_Script/carrossel-slide/carrossel-container"></script>
+</body>
+<footer id ="footer">
+    <h3>Gamer Pró &copy;</h3>
+    <p>Criado e desenvolvido por Elvys Henrique dos Santos &copy; </p>
+    <p>Todos os direitos são reservados.</p>
+    <p>Caso faça uso deste material por favor mencionar o autor nos créditos.</p>
+
+</footer>
+</html>
+    
+
